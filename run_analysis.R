@@ -65,4 +65,4 @@ summaryLabels <- c("Subject", "Activity", paste("Mean", dataLabels, sep = "_"))
 names(meansummary) <- summaryLabels
 
 # Write final tidy summary to a text file for submission
-write.table(meansummary, file = "finalTidySummary.txt")
+write.table(meansummary, file = "finalTidySummary.txt", row.names = FALSE)
